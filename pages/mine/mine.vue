@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<text>我的</text>
+		<text>nnn</text>
 	</view>
 </template>
 
@@ -10,6 +10,11 @@
 			return {
 				
 			}
+		},
+		onLoad() {
+			uni.navigateTo({
+				url: "../login/login"
+			})
 		},
 		methods: {
 			
